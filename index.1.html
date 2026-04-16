@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Sitara</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f0f2f5;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#ff512f,#dd2476);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+/* CONTAINER */
+.container{
+    width:90%;
+    margin:auto;
+    margin-top:-30px;
+}
+
+/* CARD */
+.card{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    padding:20px;
+    margin-bottom:25px;
+}
+
+/* IMAGE GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* TITLE */
+.title{
+    font-size:28px;
+    font-weight:600;
+}
+
+/* RATING */
+.rating{
+    background:green;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:5px;
+    margin:10px 0;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    padding:12px 25px;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+    transform:scale(1.05);
+}
+
+/* ABOUT */
+.about p{
+    line-height:1.6;
+}
+
+/* FOOTER */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Hotel Sangam</h1>
+    <p>lonvire, Sangola</p>
+</header>
+
+<div class="container">
+<p style="margin-top: 30px;">our special</p>
+
+
+ <div class="gallery">
+    <!-- YOUR LOGO IMAGE (FIRST) -->
+    <img src="C:\Users\Admin\Downloads\hotelsangam.lonvire_14050120_131413599.jpg.jpeg" alt="Hotel Logo">
+
+    <!-- OTHER IMAGES -->
+    <img src="C:\Users\Admin\Pictures\hotelsangam.lonvire_14050120_135026970.jpg.jpeg"width="500px" height="400px">
+    <img src="C:\Users\Admin\Pictures\hotelsangam.lonvire_14050120_131512636.jpg.jpeg">
+    <img src="C:\Users\Admin\Pictures\z.jpeg">
+</div>
+
+
+    <!-- DETAILS --><center>
+    <div class="card">
+        <div class="title">Hotel Sitara</div>
+        <div class="rating">⭐ 4.2</div>
+
+        <p><b>📍 Address:</b> Near Sangola-jat rode lonvire, Sangola</p>
+        <p><b>📞 Contact:</b> 9422028248</p> 
+        <p><b>owner:</b>xyz</p>
+
+        
+    </div>
+
+    <!-- ABOUT -->
+    <div class="card about">
+        <h2>About Hotel</h2>
+        <p>
+        Hotel sangam is one of the best hotels in Sangola offering 
+        delicious food, and excellent service. 
+        It is perfect for family dining.
+        </p>
+    </div>
+
+    <!-- REVIEWS -->
+    <div class="card">
+        <h2>⭐ Customer Reviews</h2>
+        <p>✔ Very tasty food</p>
+        <p>✔ Clean rooms and good service</p>
+        <p>✔ Budget friendly</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Hotel Sitara | Designed by You 💻
+</footer>
+
+</body>
+</html>
